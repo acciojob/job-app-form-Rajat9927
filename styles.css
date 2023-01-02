@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.field{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    }
+    form{
+        margin-top: 30px;
+        margin-left: 40%;
+      }

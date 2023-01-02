@@ -10,6 +10,28 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<div>
+	<form>
+		<label for="fullname">Name:</label><input type="text" name="fullname" id="name" class="field fullname" required>
+		<label for="email">Email:</label><input type="email" name="email" id="email" class="field email">
+		<label class="field gender" for="gender">Gender:</label>
+			<input type="radio" name="gender"  value="Male" required>Male
+			<input type="radio" name="gender"  value="Female" required>Female
+		<label class="field laptops" for="laptop">Laptop Brands:</label>
+		<select id="laptop" class="field laptops">
+			<option id="apple">Apple</option>
+			<option id="asus">Asus</option>
+			<option id="hp">HP</option>
+		</select>
+		<label for="age">Age:</label><input type="number" id="age" class="field age" required>
+		<label for="dob">DOB:</label><input type="date" id="dob" class="field date" required>
+		<label for="password">Password:</label><input type="password" name ="password" id="password" class="field password" required>
+		
+		<label for="link">Protofolio Link</label>
+		<input type="url" class="field profileurl" name="link" required>
+		<input type="submit" class="field submit">
+	</form>
+</div>
 
 </body>
 
